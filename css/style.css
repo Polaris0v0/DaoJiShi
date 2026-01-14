@@ -1,0 +1,62 @@
+/* 使用prefer color scheme判断系统是否处于深色模式 */
+@media (prefers-color-scheme: dark){
+    /* 设置背景 */
+    body{
+        background-color: #222222;
+    }
+    h2{
+        color: #FFFFFF;
+        font-size: 50px;
+    }
+    h3{
+        color: #FFFFFF;
+        font-size: 25px;
+    }
+}
+@media (prefers-color-scheme: light){
+    body{
+        background-color: #DDDDDD;
+    }
+    h2{
+        color: #000000;
+        font-size: 50px;
+    }
+    h3{
+        color: #000000;
+        font-size: 25px;
+    }
+}
+h1{
+    color: #D64249;
+    font-size: 140px;
+}
+.distance_zh_cn_1{
+    margin: 100px 0 0 100px;
+}
+.distance_zh_cn_2{
+    margin: 0 0 0 300px;
+}
+.distance_zh_cn_3{
+    margin: -65px 0 0 576px;
+}
+.distance_en_us_1{
+    margin: 0 0 0 300px;
+}
+.distance_en_us_2{
+    margin: 0 0 0 300px;
+}
+.distance_en_us_3{
+    margin: -36px 0 0 372px;
+}
+.line{
+    width: 4px;
+    height: 130px;
+    background-color: #D64249;
+    margin: -130px 0 0 293px;
+}
+.time_h1{
+    margin: -240px 0 0 405px;
+}
+.time_h3{
+    margin: 2px 0 0 335px;
+}
